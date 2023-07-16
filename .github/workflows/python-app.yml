@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: Windows # ubuntu-latest
+    runs-on: windows-latest # ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
